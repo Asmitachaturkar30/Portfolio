@@ -271,11 +271,11 @@
   .discription h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 60px;
     letter-spacing: 0.37px;
     color: #091e42;
-    width: 450px;
+    width: 550px;
   }
   
   .discription p {
@@ -325,34 +325,37 @@
   .vector a:hover {
     width: auto;
     height: auto;
-    border: 1px solid #505f79;
+    border: 1px solid #386cc7;
   }
   
-  .twitter {
-    background-image: url("images/Vector\(1\).png");
+  .mail {
+    background-image: url("img/mailjpg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   
   .github {
-    background-image: url("images/Vector\(2\).svg");
+    background-image: url("img/github.png");
     background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   
   .linkedin {
-    background-image: url("images/linkedin-112.svg");
+    background-image: url("img/linkedin.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
-  
-  .medium {
-    background-image: url("images/Vector\(4\).svg");
+
+  .instagram{
+    background-image: url("img/insta.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
-  
-  .hand {
-    background-image: url("images/Vector\(3\).svg");
-    background-repeat: no-repeat;
-  }
-  
   /* popover */
   .popover-all {
     display: none;
@@ -392,7 +395,7 @@
   }
   
   .back-image-file {
-    background-image: url(img/images\ \(3\).jpg);
+    background-image: url(img/images\ \(4\).jpg);
     background-repeat: no-repeat;
     background-color: #691f1f;
     background-position: 50% 50%;
@@ -400,7 +403,7 @@
   }
   
   .back-image-file-1 {
-    background-image: url(img/th.jpg);
+    background-image: url(img/3190343.jpg);
     background-repeat: no-repeat;
     background-color: #691f1f;
     background-position: 50% 50%;
@@ -786,21 +789,54 @@
   .list-1 {
     width: 48px;
     height: 48px;
-    background-image: url("images/Ellipse\ 1.png");
+    background-image: url("img/python.jpg");
+    background-position:center;
+    background-size: cover;
   }
   
   .list-2 {
-    background-image: url("images/Ellipse\ 1\(1\).png");
+    background-image: url("img/c++.png");
     width: 48px;
     height: 48px;
+    background-position:center;
+    background-size: cover;
   }
-  
-  .list-3 {
-    background-image: url("images/Ellipse\ 1\(2\).png");
+  .list-11 {
     width: 48px;
     height: 48px;
+    background-image: url("img/django.png");
+    background-position:center;
+    background-size: cover;
   }
-  
+  .list-21 {
+    width: 48px;
+    height: 48px;
+    background-image: url("img/postgres.png");
+    background-position:center;
+    background-size:cover;
+  }
+  .list-22 {
+    width: 48px;
+    height: 48px;
+    background-image: url("img/restAPI.png");
+    background-position: center;
+    background-size: cover;
+
+  }
+  .list-23 {
+    width: 48px;
+    height: 48px;
+    background-image: url("img/aws.png");
+    background-position:center;
+    background-size: cover;
+  }
+  .list-24 {
+    width: 48px;
+    height: 48px;
+    background-image: url("img/postman.png");
+    background-position: 50% 50%;
+    background-size: cover;
+  }
   .language h1,
   .language span,
   #new-span {
@@ -1681,13 +1717,13 @@
         display: block;
       }
     
-      .Frameworks:hover #new-span {
-        display: flex;
-      }
-    
-      .Frameworks:hover #odd-span {
-        display: none;
-      }
+    .Frameworks:hover #new-span {
+      display: flex;
+    }
+  
+    .Frameworks:hover #odd-span {
+      display: none;
+    }
     .contact-me-form {
       width: 375px;
       height: 779px;
